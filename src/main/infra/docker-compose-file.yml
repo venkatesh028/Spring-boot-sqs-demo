@@ -1,0 +1,10 @@
+version: '3'
+services:
+  localstack:
+    image: localstack/localstack:0.9.0
+    container_name: census-migration-localstack
+    environment:
+      - SERVICES=sqs:4573
+      - DEFAULT_REGION=us-east-2
+    ports:
+      - "14573:4573"
