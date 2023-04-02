@@ -1,3 +1,4 @@
 # Spring-boot-sqs-demo
-Refer Pages 
+Links
+
 https://www.baeldung.com/aws-queues-java : Baeldung
